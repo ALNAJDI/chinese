@@ -8,6 +8,12 @@
             echo lang('title');
             ?>
         </title>
+        
+            <?php
+            $this->lang->load('ar', 'arabic');
+            echo lang('title');
+            ?>
+         
         <style>
 
             body {
